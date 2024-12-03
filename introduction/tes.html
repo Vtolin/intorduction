@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajendra Pasha - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="control-panel" id="controlPanel">
+        <button class="control-btn" onclick="showSection('projects')">Projects</button>
+        <button class="control-btn" onclick="showSection('contact')">Contact</button>
+        <button class="control-btn" onclick="showSection('more-info')">More Info</button>
+    </div>
+
+    <button class="toggle-panel-btn" onclick="togglePanel()">☰</button>
+
+    <div class="container">
+        <img src="hehe.jpg" alt="Header Image" class="header-image">
+
+        <button class="purpose-btn">Purpose</button>
+
+        <div class="profile-section">
+            <img src="niya.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="profile-content">
+                <h1 class="profile-name">Rajendra Pasha</h1>
+                <p>Hey, I'm Rajendra Pasha. This is my first introduction website, and I made it with all the coding skills I've learned over the past few months. I know it's probably not the prettiest and may have some bugs, but I'm still a beginner and I'm still learning. I made this on a smartphone, so it's not the best website I've made because it's harder to code here.</p>
+                <p>//The pfp i use is my wife</p>
+                <p>//I did the rest of the code on my laptop</p>
+            </div>
+        </div>
+
+        <div class="about-section">
+            <h2 class="about-title">About Me</h2>
+            <div class="about-details">
+                <p>Nickname: Pasha;</p>
+                <p>Age: 17;</p>
+                <p>Hobbies: Programming, Photography, Learning New Things;</p>
+                <p>Favorite Food: Mom's Cooking;</p>
+                <p>Daily Driver: Vivo X70 Pro & LG G5 SE;</p>
+                <p>Workstation: Dell Inspiron 14-3467 i7-7500u;</p>
+            </div>
+        </div>
+
+        <div id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I've been working on:</p>
+            <ul>
+                <li>Personal Website (Current)</li>
+                <li>Photography Portfolio</li>
+                <li>Coding Practice Projects</li>
+            </ul>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Want to get in touch? Here are some ways:</p>
+            <ul>
+                <li>Email: manusiamk14ebr@gmail.com</li>
+                <li>GitHub: @vtolin</li>
+                <li>Instagram: @manx100ultra</li>
+            </ul>
+        </div>
+        <div id="more-info" class="section">
+            <h2>More About Me</h2>
+            <p>I'm passionate about learning new technologies and exploring the world of programming. My goal is to continuously improve my skills and create meaningful projects that can make a difference.</p>
+            <p>I love photography as much as coding, and I'm always looking and learning for new ways to combine my interests and learn new things.</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
